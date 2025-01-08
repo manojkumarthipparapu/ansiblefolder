@@ -5,6 +5,6 @@
     ansible.builtin.command: id roboshop
     register: output
     ignore_errors: true
-  - name: print the command output
+  - name: print the command Output
     ansible.builtin. debug:
      msg: "output is: {{output}}"   
